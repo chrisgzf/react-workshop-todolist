@@ -4,7 +4,7 @@ function Header(props) {
   const { tasks } = props;
   return (
     <header>
-      <h1>Orbitodolist</h1>
+      <h1>Very cool todo list</h1>
       <div style={{ display: "flex", flexFlow: "row nowrap" }}>
         <OverviewBox tasks={tasks} />
         <CatFactBox />
